@@ -1,4 +1,4 @@
-[8/21/2026 5:19 PM] Tommy: import 'package:flutter/material.dart';
+ import 'package:flutter/material.dart';
 import '../../../../shared/theme/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../../resident/models/announcement_model.dart';
@@ -105,8 +105,7 @@ class DashboardAnnouncementCard extends StatelessWidget {
                       const SizedBox(width: 8),
                       Text(
                         _getTimeAgo(announcement.createdAt),
-                        style: GoogleFonts.inter(
-[8/21/2026 5:19 PM] Tommy: fontSize: 11,
+                        style: GoogleFonts.inter( fontSize: 11,
                           fontWeight: FontWeight.normal,
                           color: AppColors.textDark,
                         ),

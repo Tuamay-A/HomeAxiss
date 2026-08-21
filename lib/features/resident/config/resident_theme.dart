@@ -118,8 +118,7 @@ class ResidentTheme {
           padding: const EdgeInsets.symmetric(
             horizontal: 24,
             vertical: 16,
-          ),
-          Tommy: textStyle: GoogleFonts.inter(
+          ), textStyle: GoogleFonts.inter(
             fontSize: 14,
             fontWeight: FontWeight.w500,
           ),
